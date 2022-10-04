@@ -6,6 +6,7 @@ Rectangle(double i, double j)
 }
 double area()
 {
+      System.out.println("to calculate volume");
 	return dim1*dim2;
 }
 }
