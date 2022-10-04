@@ -4,6 +4,7 @@ public class FixedStack implements IntStack {
 	private int tos;
 	FixedStack(int size)
 	{
+            System.out.println("Intefaces implementation")
 		int stck[]=new int[size];
 		tos=-1;
 	}
